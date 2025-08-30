@@ -9,10 +9,6 @@ import Navbar from './components/Navbar';
 
 // Pages
 import Home from './pages/Home';
-import CaseStudies from './pages/CaseStudies';
-import Testimonials from './pages/Testimonials';
-import RecentWork from './pages/RecentWork';
-import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -21,10 +17,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/case-studies" element={<CaseStudies />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/recent-work" element={<RecentWork />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
